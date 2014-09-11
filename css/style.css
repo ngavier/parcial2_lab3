@@ -1,0 +1,81 @@
+body
+{
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    //text-align: center;
+}
+nav > ul > li
+{
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    background: white;
+    
+}
+nav > ul > li:hover
+{
+    background: darkred;
+}
+nav > ul > li > a
+{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav > ul > li > a:hover
+{
+    color: white;
+}
+nav.menu
+{
+    text-align: center;
+    background: lightgray;
+}
+h1
+{
+    text-align: center;
+    padding: 10px;
+    margin: 15px 0;
+    border-bottom: 2px dotted darkred;
+}
+table
+{
+	border:2px solid #000;
+	width:100%;
+}
+th
+{
+	border:1px solid #000;
+}
+td
+{
+	border:1px solid #000
+}
+td > a
+{
+	color: red;
+	text-decoration:none;
+}
+td > a:hover
+{
+	color:blue;
+	text-decoration:underline;
+}
+td > a:visited
+{
+	color: green;
+	text-decoration:line-through;
+}
+.CrearNuevo > a
+{
+	color:blue !important;
+	font-size:18px;
+	text-decoration:none;
+}
+.CrearNuevo > a:hover
+{
+	text-decoration:underline !important;
+}
+.clearfix
+{
+    clear: both;
+}
